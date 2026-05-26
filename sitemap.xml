@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://owenkarmel.com/index.html</loc>
-    <lastmod>2026-05-26T18:17:29.394Z</lastmod>
+    <loc>https://owenkarmel.com/research.html</loc>
+    <lastmod>2026-05-26T20:08:33.657Z</lastmod>
+  </url>
+  <url>
+    <loc>https://owenkarmel.com/blog.html</loc>
+    <lastmod>2026-05-26T20:09:25.620Z</lastmod>
   </url>
   <url>
     <loc>https://owenkarmel.com/about.html</loc>
-    <lastmod>2026-05-26T17:35:27.231Z</lastmod>
+    <lastmod>2026-05-26T20:08:32.306Z</lastmod>
+  </url>
+  <url>
+    <loc>https://owenkarmel.com/index.html</loc>
+    <lastmod>2026-05-26T19:39:20.242Z</lastmod>
   </url>
 </urlset>

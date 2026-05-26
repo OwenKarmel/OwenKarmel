@@ -1,58 +1,30 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Owen Karmel",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "Hello!\nI’m Owen. I’m a Senior at Cornell University studying physics and biology. I’m enthusiastic about biotechnology, mathematics, ML, and mentorship. I want to pursue a PhD! Please see my CV.\nI work as an undergraduate researcher in the Jiang Lab, where I’ve focused on RNA therapeutics. I’ve worked on two projects, regulated self amplifying RNA and miRNA sponges for aging.  I’ve also:\n\nMentored other undergrads in my lab and through CURB on email writing, interviews, and basic wet lab techniques.\nInterned at Regeneron Pharmeceuticals and am currently interning at Thymmune Therapeutics\nOrganized several speaker events with biotech CEOs\n\nIn my spare time I’m an avid sci-fi reader, love to run, organize camping trips with friends, and visit my hometown of Albany, NY."
+    "text": "Self amplifying RNA\nTBA # miRNA Sponges for Aging TBA"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "#Overview"
+    "text": "About Me\nTBA"
   },
   {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About",
-    "section": "Education",
-    "text": "Education\nCornell University | Ithaca, NY\nBachelor of Arts in Biological Sciences and Physics | Aug 2023 - May 2027\n* GPA: 3.82\n* Relevant Coursework: Honors Organic Chemistry I, Anatomy and Physiology for Biomedical Engineers, Quantum Mechanics, Computational Genetics and Genomics, Data Science for Engineers."
-  },
-  {
-    "objectID": "about.html#research-experience",
-    "href": "about.html#research-experience",
-    "title": "About",
-    "section": "Research Experience",
-    "text": "Research Experience\n\nResearch Assistant | Jiang Lab, Cornell University\nBiomedical Engineering | Aug 2024 - Present * Leading two independent projects to investigate the potential geroprotective effects of miRNA sponges and design a novel self-amplifying mRNA platform. * Designed and tested eight unique miRNA-responsive fluorescent reporters and compared 5’ vs 3’ mediated silencing mechanisms. * Optimized low-cost stem-loop mediated RT-qPCR assays to accurately measure the absolute abundance of senescence-associated miRNAs across three in vitro cell types. * Purified extracellular vesicles using size exclusion chromatography and characterized them via nanoparticle tracking analysis (NTA) and direct light scattering (DLS). * Investigated integration of a riboswitch into self-amplifying RNA for prolonged, non-immunogenic expression via flow cytometry. * Supported a diagnostic project utilizing Raman spectroscopy and machine learning to identify senescent cells and detect metabolic changes in a rapid, label-free manner.\n\n\nEngineering Intern | Regeneron Pharmaceuticals\nCombination Product Department | May 2024 - Aug 2024 * Conducted a 3-month accelerated aging study of pre-filled syringe shelf life across 160 device samples. * Discovered a significant increase in plunger depression force via ANOVA and proposed a mechanistic explanation. * Presented findings to department leadership and authored a comprehensive 15-page technical report.\n\n\nResearch Assistant | Cosgrove Lab, Cornell University\nBiomedical Engineering | Dec 2023 - May 2024 * Developed a FACS protocol for isolating primary macrophages using surface markers identified through scRNA-seq analysis."
-  },
-  {
-    "objectID": "about.html#honors-awards",
-    "href": "about.html#honors-awards",
-    "title": "About",
-    "section": "Honors & Awards",
-    "text": "Honors & Awards\n\nCornell Rawlings Presidential Research Fellowship (2025): Top 2% of Cornell undergraduates demonstrating strong commitment to research; includes a $7,000 research and conference travel support account.\nJiang Fellow (2025): Highly selective $11,000 award supporting Cornell students to perform summer research at a startup company of their choosing.\nCornell Summer Experience Grant (2025): Competitive $5,000 award for pursuing summer research.\nCornell Einhorn Center Engaged Student Grant (2024): $1,000 award recognizing commitment to advocacy/outreach (e.g., longevity research advocacy)."
-  },
-  {
-    "objectID": "about.html#service-leadership",
-    "href": "about.html#service-leadership",
-    "title": "About",
-    "section": "Service & Leadership",
-    "text": "Service & Leadership\n\nCo-founder and President | Cornell Longevity Association\n\nIndependently organized a fireside chat featuring biotech CEO Kelsey Moody with 60+ attendees at Cornell’s Entrepreneurship Hub in collaboration with iGEM and an entrepreneurship fraternity.\n\nVolunteer | Longevity Biotechnology Association (Nov 2024 - Present)\n\nWrote an evaluation report on 44 relevant companies to promote membership, outreach, and investment in the longevity field.\nServed as photography and social media lead for a biotech pitch event in NYC (October 2023).\n\nEditor | Cornell Undergraduate Research Journal (Ref: Aug 2025 - Present)\n\nConducted peer review of over 20 undergraduate research paper submissions across all disciplines.\n\nPeer Mentor | Cornell University (Oct 2024 - Present)\n\nMentored 6 undergraduates in professional development and navigating research opportunities.\n\nNOLS Program Leader | Cornell University\n\nLed a 14-mile summit of Algonquin and Cascade mountains in the Adirondacks."
-  },
-  {
-    "objectID": "about.html#presentations",
-    "href": "about.html#presentations",
-    "title": "About",
-    "section": "Presentations",
-    "text": "Presentations\n\nKarmel, O. “Characterization of a novel accelerated aging strategy for assessing device functional stability.” Presented to Combination Product Dept. leadership at Regeneron, Albany, NY, Aug 7, 2024. (Presentation and technical report)."
-  },
-  {
-    "objectID": "about.html#technical-skills",
-    "href": "about.html#technical-skills",
-    "title": "About",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\nWet Lab Skills: Mammalian cell culture (primary human dermal fibroblasts, NIH3T3s, HEK293s), bacterial cell culture (E. coli), plasmid purification, colony PCR screening, gel electrophoresis (DNA & RNA), in vitro synthesis of mRNA, transfections, cell imaging using a microplate reader, flow cytometry ($ ext{SA-}\beta ext{-gal}$ assay), RT-qPCR (mRNA and miRNA), western blotting.\nComputational Skills: Benchling (mRNA design, sequence alignment, plasmid assembly), Python (NumPy, Pandas, scikit-learn, XGBoost), Affinity Designer, Graphpad Prism, R, BLAST, JMP."
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Owen Karmel",
+    "section": "",
+    "text": "Hello!\nI’m Owen. I’m a Senior at Cornell University studying physics and biology. I’m enthusiastic about biotechnology, mathematics, ML, and mentorship. I want to pursue a PhD! Please see my CV.\nI work as an undergraduate researcher in the Jiang Lab, where I’ve focused on RNA therapeutics. I’ve worked on two projects, regulated self amplifying RNA and miRNA sponges for aging.  I’ve also:\n\nMentored other undergrads in my lab and through CURB on email writing, interviews, and basic wet lab techniques.\nInterned at Regeneron Pharmeceuticals and am currently interning at Thymmune Therapeutics.\nOrganized several speaker events with biotech CEOs.\n\nIn my spare time I love to read sci-fi, run, and organize camping trips with friends!"
   }
 ]
