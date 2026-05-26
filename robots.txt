@@ -1,1 +1,1 @@
-Sitemap: https://OwenKarmel.github.io/sitemap.xml
+Sitemap: https://owenkarmel.com/sitemap.xml
