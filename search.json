@@ -2,23 +2,44 @@
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "Research",
+    "title": "My Research",
     "section": "",
-    "text": "Self amplifying RNA\nTBA # miRNA Sponges for Aging TBA"
+    "text": "TBA"
+  },
+  {
+    "objectID": "research.html#self-amplifying-rna",
+    "href": "research.html#self-amplifying-rna",
+    "title": "My Research",
+    "section": "",
+    "text": "TBA"
+  },
+  {
+    "objectID": "research.html#mirna-sponges-for-aging",
+    "href": "research.html#mirna-sponges-for-aging",
+    "title": "My Research",
+    "section": "miRNA Sponges for Aging",
+    "text": "miRNA Sponges for Aging\nTBA"
+  },
+  {
+    "objectID": "posts/2026-05-26-my-first-post/index.html",
+    "href": "posts/2026-05-26-my-first-post/index.html",
+    "title": "My First Blog Post",
+    "section": "",
+    "text": "This is a test!"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "No matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMy First Blog Post\n\n\n\nnontechnical\n\n\n\n\n\n\n\n\n\nMay 26, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nMy Second Blog Post\n\n\n\ntechnical\n\n\n\n\n\n\n\n\n\nMay 26, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About Me\nTBA"
+    "text": "TBA"
   },
   {
     "objectID": "index.html",
@@ -26,5 +47,12 @@
     "title": "Owen Karmel",
     "section": "",
     "text": "Hello!\nI’m Owen. I’m a Senior at Cornell University studying physics and biology. I’m enthusiastic about biotechnology, mathematics, ML, and mentorship. I want to pursue a PhD! Please see my CV.\nI work as an undergraduate researcher in the Jiang Lab, where I’ve focused on RNA therapeutics. I’ve worked on two projects, regulated self amplifying RNA and miRNA sponges for aging.  I’ve also:\n\nMentored other undergrads in my lab and through CURB on email writing, interviews, and basic wet lab techniques.\nInterned at Regeneron Pharmeceuticals and am currently interning at Thymmune Therapeutics.\nOrganized several speaker events with biotech CEOs.\n\nIn my spare time I love to read sci-fi, run, and organize camping trips with friends!"
+  },
+  {
+    "objectID": "posts/2026-05-27-second-post/index.html",
+    "href": "posts/2026-05-27-second-post/index.html",
+    "title": "My Second Blog Post",
+    "section": "",
+    "text": "This is also a test!"
   }
 ]
