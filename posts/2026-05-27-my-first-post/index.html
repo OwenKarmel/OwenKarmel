@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-05-27">
 
-<title>Blog – Owen Karmel</title>
+<title>Some Thoughts on Developing an Exciting Research Question – Owen Karmel</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,25 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,67 +71,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -142,7 +83,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Owen Karmel</span>
     </a>
   </div>
@@ -153,19 +94,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -176,25 +117,34 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bm9udGVjaG5pY2Fs">nontechnical <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGVjaG5pY2Fs">technical <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<h1 class="title">Some Thoughts on Developing an Exciting Research Question</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">nontechnical</div>
+  </div>
+  </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 27, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -204,94 +154,11 @@ window.Quarto = {
 </header>
 
 
+<p>I’ve come across several questions for developing an interesting research idea. <a href="https://www.science.org/content/blog-post/e-o-wilson-s-letters-young-scientist">E. O. Wilson</a> asked “what direction is marching against the sound of guns?”, drawing a parallel to Napoleon’s heuristic for finding where the action is. A famous Y Combinator interview question asks “what important truth do very few people agree with you on?” And along similar lines I’ve heard, “what has just become possible that wasn’t 5 years ago, and might become ubiquitous 5 years from now?” What these have in common is casting your dice in the right areas, where there is still a lot of growth. Research areas tend to undergo exponential growth, whether in papers, the number of scientists, etc. And the very best ideas do much much better than a typical idea — think of the top performer in a VC fund recouping most of the fund’s money, or highly cited papers having way more citations than the average paper. Research, then, is governed by <a href="https://www.youtube.com/watch?v=HBluLfX2F_k">power laws</a>, where very uncommon outcomes can have huge payoffs. To have an impact, researchers face the very hard challenge of getting on the right side of a power law. They have to find an unproven field and push forward with it, later to realize its potential for growth. Furthermore, they must proceed knowing not much of the payoff in resources (citations, grant money, colleagues) will be available until the end of the exponential. It’s very hard to foresee anything about a nascent research problem. Luck is a significant factor, of course. Research is by definition exploring the unknown; if a degree of uncertainty wasn’t involved in the outcome, it wouldn’t be novel work. That’s why impact is often secondary to passion, curiosity, and finding a subject matter personally meaningful. In fact, these are laudable reasons to pursue research, and what I consider to be my main motivators! Nevertheless, it’s important to consider impact so we can do more good with the opportunities we are given. Here are a few lines of reasoning that might allow for, at least, a ruling out of a research idea, because they dampen tendencies toward exponential growth. One area to consider is resource constraints that might put a “carrying capacity” on a given research direction. Are there only so many particle accelerators, quantum computers, or axolotls with which to carry out experiments? These resources could take years to scale up, and if they’re expensive, the stakeholders that build them might be looking for incremental results, not interesting but risky questions. With the right research area, others will be eager to requisition easy to find resources to build on your results. I’ve come into contact with this problem on a small scale many times; for instance, being limited by the amount of animals with a certain mutation or age, and having trouble getting more. Another consideration is “secret” social challenges within your technical problems. A lot of high impact aims presuppose people will change their behavior, then design a technology based on that changed behavior. And unfortunately, people’s behavior will not change predictably. They are mostly following incentives and already developed beliefs. Furthermore, being an advocate is completely different from being a researcher! For instance, I was recently having a conversation with an environmental engineer, and they described how much of the disciplines’ recommendations are ideal designs for water/environment infrastructure that are very creative. However, this presupposes most people (and it would take most people, as in many taxpayers) will pay for the more expensive, longer term infrastructure solution, or pay to upgrade existing infrastructure at all. Getting into the headspace of your stakeholders and understanding what they already want is essential. Much of my thought in this direction has gone into understanding regulatory requirements, and better understanding attitudes toward bioethics questions (ex temporary vs permanent vs germline genetic modification). I also want to understand the extent to which <a href="https://en.wikipedia.org/wiki/Eroom%27s_law">Eroom’s law</a> is a technological phenomenon, or if there are underlying social aspects involved. As well as presupposing social development, it’s also easy to presuppose technological development. In hindsight, technologies are often realized to be “before their time”. Sometimes, this is OK: famously so in the case of Moore’s law. Other times, there is no trend suggesting that a capability somewhere in the pipeline will be developed. In that case, perhaps it would be wise to work on the capability itself. For instance, in working on RNA sponges, I was confronted with the issue of delivering the sponge to more organs and in higher concentrations. Because the sponge was addressing a senescence pathway that could conceivably occur in any cell, use of the therapy to its fullest potential presupposed whole body delivery. This led to my interest in self-amplifying RNA as a gene delivery platform! I’m hoping to apply these constraints in future posts for evaluating interesting research areas. For instance, how might this framework help in evaluating ideas for interpreting deep neural networks? For actually reaching whole body gene therapy? Are there more “power law killing” constraints I’ve missed? There are many interesting questions here to unpack.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Author
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bm9udGVjaG5pY2Fs" data-listing-date-sort="1779854400000" data-listing-file-modified-sort="1779918483415" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="838">
-<div class="thumbnail"><a href="./posts/2026-05-27-my-first-post/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-05-27-my-first-post/index.html" class="no-external">Some Thoughts on Developing an Exciting Research Question</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm9udGVjaG5pY2Fs'); return false;">nontechnical</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/2026-05-27-my-first-post/index.html" class="no-external">
-I’ve come across several questions for developing an interesting research idea. E. O. Wilson asked “what direction is marching against the sound of guns?”, drawing a…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-05-27-my-first-post/index.html" class="no-external">
-<div class="listing-date">
-May 27, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="dGVjaG5pY2Fs" data-listing-date-sort="1779768000000" data-listing-file-modified-sort="1779827451390" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<div class="thumbnail"><a href="./posts/2026-05-26-second-post/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-05-26-second-post/index.html" class="no-external">My Second Blog Post</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('dGVjaG5pY2Fs'); return false;">technical</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/2026-05-26-second-post/index.html" class="no-external">
-This is also a test!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-05-26-second-post/index.html" class="no-external">
-<div class="listing-date">
-May 26, 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
